@@ -22,7 +22,7 @@ const_format = { version = "0.2", features = ["more_str_macros"] }
 fast_poisson = { version = "1.0", features = ["single_precision"] }
 paste = { version = "1.0" }
 pyo3 = { version = "0.27", features = ["abi3-py310"] }
-rand = { version = "0.8" }
+rand = { version = "0.9" }
 rand_xoshiro = { version = "0.6" }
 rayon = { version = "1.11" }
 thiserror = { version = "2" }
