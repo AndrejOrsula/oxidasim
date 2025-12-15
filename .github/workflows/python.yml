@@ -188,7 +188,7 @@ jobs:
     env:
       MATURIN_PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
     steps:
-      - uses: actions/download-artifact@v6
+      - uses: actions/download-artifact@v7
       - name: Publish to PyPI
         if: ${{ env.MATURIN_PYPI_TOKEN != '' }}
         uses: PyO3/maturin-action@v1
